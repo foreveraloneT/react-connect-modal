@@ -11,7 +11,9 @@ module.exports = {
     filename: 'bundle.js',
   },
   resolve: {
-    modules: [path.resolve(__dirname, "src"), "node_modules"]
+    alias: {
+      "react-connect-modal": path.resolve(__dirname, "src")
+    }
   },
   module: {
     loaders: [

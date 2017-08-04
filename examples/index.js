@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import { BasicModal } from 'components/Modal'
-import { connectModal } from 'connectModal'
+import { BasicModal } from 'react-connect-modal'
+import { connectModal } from 'react-connect-modal'
 
 class App extends Component {
   render() {
