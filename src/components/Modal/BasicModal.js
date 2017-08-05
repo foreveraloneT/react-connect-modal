@@ -33,8 +33,8 @@ const BasicModal = ({
 
 BasicModal.propTypes = {
     show: PropTypes.bool.isRequired,
-    header: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
+    header: PropTypes.string,
+    content: PropTypes.any,
     onClose: PropTypes.func.isRequired,
 }
 

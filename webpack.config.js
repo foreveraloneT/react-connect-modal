@@ -4,10 +4,10 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   devtool: 'eval',
-  entry: path.join(__dirname, 'examples/index.js'),
+  entry: path.join(__dirname, 'examples', 'index.js'),
   output: {
-    publicPath: '/static/',
-    path: path.join(__dirname, 'static'),
+    publicPath: 'examples/static/',
+    path: path.join(__dirname, 'examples', 'static'),
     filename: 'bundle.js',
   },
   resolve: {
