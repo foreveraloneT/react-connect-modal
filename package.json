@@ -1,6 +1,6 @@
 {
   "name": "react-connect-modal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React higher order component for connect any modal",
   "main": "lib/index.js",
   "scripts": {
